@@ -76,3 +76,18 @@ input#search:focus {
         height: 7vh;
     }
 }
+
+@media (max-width: 321px) {
+    #help-intro .intro-head {
+        padding: 20px !important;
+    }
+
+    .plus-sign  {
+        width: 10%;
+        height: 7vh;
+    }
+
+    .accordion-help h6 {
+        width: 90%;
+    }
+}
