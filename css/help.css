@@ -40,6 +40,17 @@ input#search:focus {
     color: #012762;
 } 
 
+@media (max-width: 1025px) {
+    .card {
+        min-height: 45vh !important;
+    }
+
+    .plus-sign  {
+        width: 4%;
+        height: 7vh;
+    }
+}
+
 @media (max-width: 769px) {
     #help-intro .intro-head {
         padding: 1px !important;
