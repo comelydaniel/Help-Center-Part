@@ -17,12 +17,18 @@ input#search:focus {
     color: #9EA2BB;
 }
 
-.card, .plus-sign, .accordion-help {
+.card {
      box-shadow: 1px 2px 15px 1px rgba(158, 162, 187, 0.87);
+     height: 28vh !important;
+     transition: transform ease-in 0.3s;
 }
 
-.card {
-    min-height: 30vh !important;
+.card:hover {
+    transform: scale(1.1);
+}
+
+.accordion-help, .plus-sign {
+    box-shadow: 1px 2px 6px 1px rgba(158, 162, 187, 0.87);
 }
 
 #faq .faq-head {
