@@ -1,0 +1,67 @@
+#help-intro {
+    background: url(../img/help-bg.png) center/cover no-repeat;
+    min-height: 70vh;
+}
+
+input#search{
+    background-image: url(../img/search.icon.png);
+    background-repeat: no-repeat;
+    text-indent: 20px;
+}
+
+input#search:focus {
+    background-image: none;
+}
+
+.hi-help, .email-link {
+    color: #9EA2BB;
+}
+
+.card, .plus-sign, .accordion-help {
+     box-shadow: 1px 2px 15px 1px rgba(158, 162, 187, 0.87);
+}
+
+.card {
+    min-height: 30vh !important;
+}
+
+#faq .faq-head {
+    background: #D8D8D833;
+
+}
+
+.plus-sign {
+    border-radius: 45%;
+    height: 5vh;
+    width: 3%;
+}
+
+.faq-accordion .accordion-help h6, #faq .faq-prompt {
+    color: #012762;
+} 
+
+@media (max-width: 769px) {
+    #help-intro .intro-head {
+        padding: 1px !important;
+    }
+
+    .card {
+        min-height: 40vh !important;
+    }
+
+    .plus-sign  {
+        width: 5%;
+        height: 7vh;
+    }
+
+    .input-group {
+        width: 70% !important;
+    }
+}
+
+@media (max-width: 426px) {
+    .plus-sign  {
+        width: 8%;
+        height: 7vh;
+    }
+}
