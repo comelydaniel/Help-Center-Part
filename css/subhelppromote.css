@@ -8,12 +8,12 @@ input#search:focus {
     background-image: none;
 }
 
-#manage-event-searchbar {
-    background: url(../img/subhelp-manage-bg.png) center/cover no-repeat;
+#promote-event-searchbar {
+    background: url(../img/subhelp-promote-bg.png) center/cover no-repeat;
     min-height: 30vh;
 }
 
-#manage-events .submanage-events {
+#promote-events .subpromote-events {
     box-shadow: 1px 2px 15px 1px rgba(159, 159, 159, 0.64);
 }
 
